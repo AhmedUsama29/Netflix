@@ -794,6 +794,16 @@ private static void PlanChoose(NormalUser user,String UsersFile,FileWriter f) th
                         break;
                     default : System.out.println("Wrong Input"); System.exit(0);
                 }
+
+                System.out.println("Choose Your payment method:\n1)Credit/Debit Card\n2)PayPal");
+                int p = s.nextInt();
+                switch(p){
+                    case 1: break;
+                    case 2: break;
+                    default:
+                        System.out.println("Wrong Input"); System.exit(0);
+                }
+
                 database.adduser(user);
                 f.write(UsersFile + user.ToString());
                 f.close();
