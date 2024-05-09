@@ -1,0 +1,11 @@
+com\mycompany\netflix\Settings.class
+com\mycompany\netflix\Subscription.class
+com\mycompany\netflix\Database.class
+com\mycompany\netflix\Movies.class
+com\mycompany\netflix\NormalUser.class
+com\mycompany\netflix\user.class
+com\mycompany\netflix\Netflix.class
+com\mycompany\netflix\WatchLater.class
+com\mycompany\netflix\Shows.class
+com\mycompany\netflix\Admin.class
+com\mycompany\netflix\WatchList.class
