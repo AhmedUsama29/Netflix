@@ -3,9 +3,11 @@ package com.mycompany.netflix;
 
 public class NormalUser extends user {
     
-Subscription basic = new Subscription("1","Basic","70$","Good","Good","720p (HD)");
-Subscription standard = new Subscription("2","Standard","120$","Great","Great","1080p (FHD)");
-Subscription premium = new Subscription("3","Premium","165$","Best","Best","4K (Ultra HD + HDR)");
+Subscription basic = new Subscription("1","Basic",70,"Good","Good","720p (HD)");
+Subscription standard = new Subscription("2","Standard",120,"Great","Great","1080p (FHD)");
+Subscription premium = new Subscription("3","Premium",165,"Best","Best","4K (Ultra HD + HDR)");
+
+Payment payment = new Payment();
 
 WatchList watchlist = new WatchList();
 WatchLater watchlater = new WatchLater();

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Subscription {
     private String PlanID;
     private String PlanName;
-    private String monthlyPrice;
+    private int monthlyPrice;
     private String soundQuality;
     private String videoQuality;
     private String resolution;
@@ -14,7 +14,7 @@ public class Subscription {
     public Subscription() {
     }
 
-    public Subscription(String PlanID,String PlanName,String monthlyPrice, String soundQuality, String videoQuality, 
+    public Subscription(String PlanID,String PlanName,int monthlyPrice, String soundQuality, String videoQuality,
                         String resolution) {
         this.PlanID = PlanID;
         this.PlanName = PlanName;
@@ -42,11 +42,11 @@ public class Subscription {
     }
 
     
-    public String getMonthlyPrice() {
+    public int getMonthlyPrice() {
         return monthlyPrice;
     }
 
-    public void setMonthlyPrice(String monthlyPrice) {
+    public void setMonthlyPrice(int monthlyPrice) {
         this.monthlyPrice = monthlyPrice;
     }
 
@@ -78,7 +78,7 @@ public class Subscription {
     public void displaySubscriptionDetails() {
         System.out.println(PlanID+")"+PlanName + " :");
         Netflix.draw();
-        System.out.println("-Monthly Price: " + monthlyPrice);
+        System.out.println("-Monthly Price: " + monthlyPrice + "$");
         System.out.println("-Sound Quality: " + soundQuality);
         System.out.println("-Video Quality: " + videoQuality);
         System.out.println("-Resolution: " + resolution);

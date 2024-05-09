@@ -798,8 +798,8 @@ private static void PlanChoose(NormalUser user,String UsersFile,FileWriter f) th
                 System.out.println("Choose Your payment method:\n1)Credit/Debit Card\n2)PayPal");
                 int p = s.nextInt();
                 switch(p){
-                    case 1: break;
-                    case 2: break;
+                    case 1: user.payment.AddCard(); break;
+                    case 2: user.payment.AddPayPal(); break;
                     default:
                         System.out.println("Wrong Input"); System.exit(0);
                 }

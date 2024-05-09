@@ -17,3 +17,4 @@ ahmed,ah@mail.com,Aa@123456,01111546547,Standard
 ahmed elsayed252,ae252389@gmail.com,Aa@123456,01024624265,Standard
 leh,saleh@gmail.com,123456Ss@,01200649791,Standard
 Ahmed Eid,ahmedeid@gmail.com,456789Aa?,01002525456,Premium
+Kareem Osama,kareem@gmail.com,123456Aa?,01010252523,Premium
