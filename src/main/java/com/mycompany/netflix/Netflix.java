@@ -826,5 +826,3 @@ public static void draweq(){
     System.out.println("======================================");
 }
 }
-
-// wooow a feetuuure
